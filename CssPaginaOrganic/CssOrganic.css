@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;700&family=Montserrat:wght@100;200;300;500;700&display=swap');
 :root{
 	--blanco: #FFF;
 	--negro: rgb(7,9,10);
@@ -12,6 +12,13 @@
 	align-items: center;
 	background: var(--negro);
 }
+
+.Binicio h1{
+	font-family: "Barlow Condensed";
+	font-size: 56px;
+	letter-spacing: 5px;
+	font-weight: 300;
+}
 .LOGO{
 	height: 150px;
 	margin: 0 30px;
@@ -23,14 +30,60 @@
 }
 .LINKS a{
 	margin-right: 20px;
+	color: white;
+	text-decoration: none;
 }
-.Novedades{
-	display: flex;
-	justify-content: center;
-	font-size: 72px;
+.LINKS a:hover{
+	color: grey;
+}
+.Novedades h1{
+	font-size: 90px;
+	text-align: center;
+	margin: 20px;
+	letter-spacing: 15px;
+	font-family: "Barlow Condensed";
 }
 .Binicio h1{
 	margin-left: 40px;
 	margin-right: 60px;
 	color: var(--blanco);
 }
+.carrousel{
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: ;
+}
+
+#carouselExampleIndicators{
+	width: 33%;
+
+}
+.divpapa{
+	display: flex;
+
+}
+.form{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 60px;
+}
+.Logo2{
+	height: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.Final{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#Organic{
+	text-align: center;
+}
+.cartas{
+	height: 400px;
+	display: flex;
+	margin-top: 30px;
+}
+
